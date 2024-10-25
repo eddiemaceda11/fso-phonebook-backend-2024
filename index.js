@@ -87,5 +87,5 @@ app.delete("/api/persons/:id", (req, res) => {
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, (req, res) => {
-  console.log(`Server running on port ${PORT}`å);
+  console.log(`Server running on port ${PORT}`);
 });
